@@ -18,6 +18,8 @@
 
 Control your supported Tuya accessories locally in HomeKit
 
+**Forked version to amend SimpleFanAccessory to max speed 6 rather than 3 for personal use**
+
 * [Supported Device Types](#supported-device-types)
 * [Installation Instructions](#installation-instructions)
 * [Configuration](#configuration)
