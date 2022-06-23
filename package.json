@@ -3,7 +3,7 @@
 
   "version": "3.0.0-beta.2",
 
-  "description": "🏠 Offical Homebridge plugin for TuyAPI ",
+  "description": "🏠 Offical Homebridge plugin for TuyAPI - forked to change SimpleFanAccessory speed to 6",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iRayanKhan/homebridge-tuya.git"
+    "url": "git+https://github.com/scottye98/homebridge-tuya-fork.git"
   },
   "author": "Rayan Khan",
   "license": "MIT",
@@ -38,6 +38,9 @@
     "homebridge-tuya",
     "tuya"
   ],
+  "publishConfig": {
+  "registry":"https://npm.pkg.github.com"
+},
   "engines": {
     "homebridge": ">=0.4.0",
     "node": ">=8.6.0"
